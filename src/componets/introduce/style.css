@@ -1,0 +1,31 @@
+.imgchien {
+  animation: animationchine 3s infinite alternate;
+}
+
+@keyframes animationchine {
+  0%{
+    left: 20%;
+  }
+  to {
+    left: 40%;
+  }
+}
+
+.solution {
+  animation: animationsolution 3s infinite alternate;
+  text-shadow: 4px 4px #f1f1f1;
+  -webkit-animation: animationsolution 4s ease-in-out infinite;
+}
+
+@keyframes animationsolution {
+  0% {
+    color: #cf5039;
+  }
+  50%{
+    color: rgb(172, 182, 35);
+  }
+
+  100% {
+    color: #fd8f6c;
+  }
+}
