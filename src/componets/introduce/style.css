@@ -1,7 +1,9 @@
 .imgchien {
   animation: animationchine 3s infinite alternate;
 }
-
+.clippath{
+  clip-path: polygon(50% 0%, 81% 0, 100% 0, 100% 88%, 85% 97%, 50% 100%, 18% 97%, 0 89%, 0% 35%, 0 0);
+}
 @keyframes animationchine {
   0%{
     left: 20%;

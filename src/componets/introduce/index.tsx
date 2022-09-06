@@ -5,9 +5,9 @@ import "./style.css";
 
 const Introduce = () => {
   return (
-    <div className="lg:flex bg-ct2-neutral-02 text-ct-texts-origin lg:justify-between justify-center lg:p-10 p-10">
+    <div className="lg:flex bg-ct2-neutral-02 text-ct-texts-origin lg:justify-between justify-center lg:p-10 p-10 clippath">
       <div className="sm:px-12 lg:w-1/2 flex-col justify-between">
-        <div className=" lg:text-4xl text-2xl flex ">
+        <div className=" lg:text-5xl text-2xl flex ">
           <p>
             <span className="font-Lobster font-bold text-ct-neutral-black">
               "
