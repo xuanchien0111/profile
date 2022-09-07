@@ -1,4 +1,5 @@
 declare module 'chart.js';
-declare module 'ckeditor5-classic-with-mathtype';
-declare module '@ckeditor/ckeditor5-react';
+declare module 'leaflet';
+declare module 'react-leaflet';
+declare module 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
 declare module 'uuid';

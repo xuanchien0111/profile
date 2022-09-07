@@ -5,7 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         Lobster: ["Lobster", "cursive"],
-        Playfair: ["Playfair Display", "serif"],
+        Playfair: ["Playfair Display", "serif"], 
+        Lato: ["Lato", "sans-serif"], 
+        Pacifico: ['Pacifico', "cursive"], 
       },
       colors: {
         "ct-primary": {
