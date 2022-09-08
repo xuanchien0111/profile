@@ -22,6 +22,7 @@ const data = [
     img: "https://epz24x4zq6r.exactdn.com/wp-content/uploads/2020/12/Lazada.jpg?strip=all&lossy=1&ssl=1",
     title: "ADMIN - LAZADA",
     time: "(3/3/2022-30/3/2022)",
+    demo: "https://k20-lazada.herokuapp.com/",
     describe:
       "Add, edit, delete products, users, check orders",
     teamsize: "1 (1 Full stack)",
