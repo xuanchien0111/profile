@@ -8,6 +8,7 @@ module.exports = {
         Playfair: ["Playfair Display", "serif"], 
         Lato: ["Lato", "sans-serif"], 
         Pacifico: ['Pacifico', "cursive"], 
+        Orbitron: ['Orbitron', "sans-serif"], 
       },
       colors: {
         "ct-primary": {

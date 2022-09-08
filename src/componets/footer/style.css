@@ -1,12 +1,40 @@
 .footer{
-    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 100% 100%, 50% 100%, 0 100%, 0% 70%, 0% 35%, 20% 10%);
-
+    clip-path: polygon(30% 0%, 70% 0%, 100% 7%, 100% 100%, 70% 100%, 30% 100%, 0 100%, 0 9%);
 }
-.hovericon:hover a {
-    transform: translateY(-50px);
-    transition: .1s ease-out;
+.hovericon:hover a{
+    animation: animationicon 0.5s reverse;
 }
-.hovericon:hover{
+@keyframes animationicon{
+    to{
+        margin-bottom: 80px;
+    }
+}
+.hovericon:hover div{
     width: 60px;
     height: 60px;
 }
+.imgchien{
+    animation: animationimg 1s alternate;
+}
+@keyframes animationimg{
+    0%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+.textmy{
+    animation: animatetext 4s linear infinite ;
+}
+@keyframes animatetext {
+    0% { transform: scale(1); color: rgb(240, 240, 240); }
+    25% { transform: scale(1.1); color: rgb(19, 18, 18);}
+    45% { transform: scale(1.2) skewX(-10deg);}
+    90% { transform: scale(1.1) skewX(-20deg); }
+    100% { transform: scale(1) skewX(-90deg); }
+  }
+
+
+/* Animation img footer */
+
